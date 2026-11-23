@@ -39,6 +39,6 @@ Typst downloads Touying, Fletcher, Diagraph and Codly on first use. For a machin
 internet, build both templates on a connected one and copy its Typst package cache
 (`~/.cache/typst/packages` on Linux).
 
-## Fonts
+## License
 
-Newsreader and Inter are bundled in `theme/fonts` under the SIL Open Font License.
+The theme is under the MIT License. Newsreader and Inter are bundled in `theme/fonts` under the SIL Open Font License.

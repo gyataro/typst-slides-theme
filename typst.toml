@@ -5,6 +5,7 @@ compiler = "0.15.0"
 entrypoint = "theme/lib.typ"
 authors = ["Xiwen Teoh"]
 description = "Blue tile and stamp slides for weekly reports and research talks."
+license = "MIT"
 
 [template]
 path = "template"

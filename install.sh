@@ -21,7 +21,7 @@ skill="${CLAUDE_CONFIG_DIR:-$HOME/.claude}/skills/tilework"
 mkdir -p "$(dirname "$package")" "$skill"
 rm -rf "$package.new"
 mkdir "$package.new"
-cp -R "$repo/typst.toml" "$repo/README.md" "$repo/theme" "$repo/template" "$package.new/"
+cp -R "$repo/typst.toml" "$repo/README.md" "$repo/LICENSE" "$repo/theme" "$repo/template" "$package.new/"
 rm -rf "$package"
 mv "$package.new" "$package"
 
