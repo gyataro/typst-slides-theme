@@ -1,0 +1,10 @@
+digraph {
+  rankdir=LR; nodesep=0.5; ranksep=0.6;
+  entry [label="read len"];
+  check [label="len <= 64?", fillcolor="$gold-wash", color="$gold"];
+  copy [label="memcpy"];
+  reject [label="reject", color="$rust"];
+  ret [label="return"];
+  entry -> check; check -> copy [label="yes"]; check -> reject [label="no"];
+  copy -> ret; reject -> ret;
+}

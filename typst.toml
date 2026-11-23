@@ -1,0 +1,11 @@
+[package]
+name = "tilework"
+version = "0.1.0"
+compiler = "0.15.0"
+entrypoint = "theme/lib.typ"
+authors = ["Xiwen Teoh"]
+description = "Blue tile and stamp slides for weekly reports and research talks."
+
+[template]
+path = "template"
+entrypoint = "report.typ"
